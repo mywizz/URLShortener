@@ -59,7 +59,7 @@ URL shortening library for
 			NSString *shortURL = [result objectForKey:@"shortURL"];
 			NSLog(@"%@ => %@", originalURL, shortURL);
 		}
-		
+	}];
 		
 ### J.mp
 	
@@ -74,7 +74,8 @@ URL shortening library for
 			NSString *shortURL = [result objectForKey:@"shortURL"];
 			NSLog(@"%@ => %@", originalURL, shortURL);
 		}
-		
+	}];
+	
 ## License
 
 Available under the MIT license.
